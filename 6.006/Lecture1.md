@@ -24,10 +24,10 @@ Find a 1D peak on middle column at row i, then find a 1D peak on row i.
 It's wrong because a 2D peak may not exist on row i but exist on other rows.
 
 **Correct Divide and Conquer** - Θ(nlog(m))  
-Resursively find global maximum on the middle column,  
+Resursively find global max on the middle column,  
 if it's smaller than left neighbour, move left;
 else if it's smaller than right neightbour, move right;  
-else the maximum is the 2D peak.
+else the max is the 2D peak.
 
 T(1) = Θ(n)  
 T(n, m) = T(n, m/2) + Θ(n) = log(m) * Θ(n) = Θ(nlog(m))
