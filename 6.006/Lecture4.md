@@ -28,7 +28,7 @@ Turn an unsorted array into a max-heap by iteratively calling max-heapify from s
 Initialize the heap:
 1. call build-max-heap - Θ(n)
 
-Iteratively extract the maximum n times:
+Iteratively extract the max n times:
 
 2. swap the largest item from the beginning to the end of the array - Θ(1)
 3. decrease heap size - Θ(1)
