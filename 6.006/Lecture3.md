@@ -29,4 +29,4 @@ Requires Θ(1) auxiliary space.
 Insertion Sort requires Θ(1) auxiliary space.✅  
 Traditional Merge Sort requires Θ(n) auxiliary space during merge.❌
 
-In-place Merge Sort requires Θ(1) auxiliary space but has much worse running time.
+In-place Merge Sort requires Θ(1) auxiliary space but has much worse Θ(nlog(n)) running time.
