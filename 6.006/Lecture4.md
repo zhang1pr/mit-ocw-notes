@@ -21,15 +21,15 @@ Operations of the **Data Structure**:
 * max-heapify - Θ(log(n))
 Correct a single violation of max-heap, bound by the tree height.
 * build-max-heap - Θ(n)
-Turn an unsorted array into a max-heap by iteratively calling max-heapify from second last level to the top.
+Turn an unsorted array into a max-heap by iteratively calling **max-heapify** on nodes from second last level to the top.
 
 # 3. Heap Sort 
 **Heap Sort** - Θ(log(n))  
 Initialize the heap:
-1. call build-max-heap - Θ(n)
+1. call **build-max-heap** - Θ(n)
 
 Iteratively extract the max n times:
 
 2. swap the largest item from the beginning to the end of the array - Θ(1)
 3. decrease heap size - Θ(1)
-4. call max-heapify on the new root - Θ(log(n))  
+4. call **max-heapify** on the new root - Θ(log(n))  
