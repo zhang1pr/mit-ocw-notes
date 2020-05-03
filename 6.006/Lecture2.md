@@ -10,11 +10,11 @@ Specifies:
 Can be implemented on Random Access Machine.
 
 # 2. Python Model
-1. list - Array
-2. tuple, str - Linked List
-3. dict - Hash Table
-4. set - Hash Set
-5. headq - Heap
+* list - Array
+* tuple, str - Linked List
+* dict - Hash Table
+* set - Hash Set
+* headq - Heap
 
 # 3. Document Distance
 **Document Length** is the number of the words in the document.
