@@ -14,8 +14,8 @@ Iteratively insert the smaller item down to the correct position by pairwise swa
 **Binary Insertion Sort** - Θ(n^2)  
 If we replace pairwise swap with binary search, we reduce compare from Θ(n^2) to Θ(nlog(n)) but keep insertion Θ(n^2) because of shifting items.
 
-**Merge Sort** - Θ(nlog(n))  
-Resursively split and merge back.
+**Merge Sort** - Θ(nlog(n))
+Recursively split and merge back.
 
 Split represents **Divide and Conquer** - Θ(1)  
 Merge uses **Two Pointers Techique** - Θ(n)
