@@ -24,7 +24,7 @@ Correct a single violation of max-heap, bound by the tree height.
 Turn an unsorted array into a max-heap by iteratively calling **max-heapify** on nodes from second last level to the top.
 
 # 3. Heap Sort 
-**Heap Sort** - Θ(log(n))
+**Heap Sort** - Θ(log(n)):
 1. call **build-max-heap** - Θ(n)
 2. iteratively extract the max - Θ(nlog(n))
     * swap the largest item from the beginning to the end of the array - Θ(1)  
