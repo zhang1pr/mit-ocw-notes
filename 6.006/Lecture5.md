@@ -1,7 +1,7 @@
 # 1. Runway Reservation System
 Requires doing the following operations in O(log(n)) time:
 * deletion
-* search
+* searching
 * comparison
 * insertion
 
