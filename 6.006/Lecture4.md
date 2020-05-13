@@ -11,8 +11,8 @@ Is a nearly complete **Binary Tree** implemented in Array.
 Positions:
 * root index = 1  
 * parent index = index/2  
-* left child index = 2index  
-* right child index = 2index + 1  
+* left child index = 2*index  
+* right child index = 2*index + 1  
 
 **Max-heap** (analogously for Min-heap)  
 Every parent is greater than or equal to each of its children.
