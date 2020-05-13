@@ -1,5 +1,5 @@
-# 1. Dictionary
-Operations of the **Abstract Data Type**:  
+# 1. Dictionary ADT
+Operations:
 * insert an item
 * delete an item
 * search item and return it with key if it exists
