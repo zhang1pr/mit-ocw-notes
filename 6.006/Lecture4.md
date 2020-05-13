@@ -1,5 +1,5 @@
-# 1. Priority Queue
-Operations of the **Abstract Data Type**:  
+# 1. Priority Queue ADT
+Operations:
 * insert an item
 * return the item with largest (or smallest) key
 * remove the item with largest (or smallest) key
