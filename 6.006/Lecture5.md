@@ -18,7 +18,7 @@ Every node is greater than or equal to its left child, and less than or equal to
 Operations, where h is the height of the tree:
 * search - Θ(h)
 * insert - Θ(h)
-  * call **search** until an empty spot is found
+  * call **search** until an empty slot is found
 * find-max, find-min - Θ(h)
   * return leftmost, rightmost child
 * find-next-larger, find-next-smaller - Θ(h)
