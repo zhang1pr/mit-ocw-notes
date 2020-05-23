@@ -13,7 +13,7 @@ Steps:
 
 # 3. Chaining
 If keys collide, chain them by **Linked List** in the slot of Hash Table.  
-Search takes Θ(n) in worst-case.
+Search takes Θ(n) in the worst case.
 
 # 4. Hash Function
 **Division Method** - h(k) = k mod m, where m is prime and not too close to power of 2 or 10  
