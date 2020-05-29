@@ -13,7 +13,7 @@ In worst case, where:
 * N is the least number of nodes in an AVL Tree
 * h is the height of the AVL Tree
 N(1) = Θ(1)
-N(h) = 1 + N(h-1) + N(h-2) > 2N(h-2) = Θ(2^(h/2)) 
+N(h) = 1 + N(h-1) + N(h-2) > 2N(h-2) = Θ(2<sup>h/2</sup>) 
 => h < 2log(n)
 => h = Θ(log(n))
 
