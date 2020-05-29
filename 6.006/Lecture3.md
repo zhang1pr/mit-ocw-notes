@@ -8,11 +8,11 @@ Benefits if array is sorted:
 * find an item - binary search - Θ(log(n))
 * find duplicates - linear search - Θ(n) in-place
 
-**Insertion Sort** - Θ(n^2)
+**Insertion Sort** - Θ(n<sup>2</sup>)
 Iteratively insert the smaller item down to the correct position by pairwise swap.
 
-**Binary Insertion Sort** - Θ(n^2)  
-If we replace pairwise swap with binary search, we reduce compare from Θ(n^2) to Θ(nlog(n)) but keep insertion Θ(n^2) because of shifting items.
+**Binary Insertion Sort** - Θ(n<sup>2</sup>)  
+If we replace pairwise swap with binary search, we reduce compare from Θ(n<sup>2</sup>) to Θ(nlog(n)) but keep insertion Θ(n<sup>2</sup>) because of shifting items.
 
 **Merge Sort** - Θ(nlog(n))
 Recursively split and merge back.
