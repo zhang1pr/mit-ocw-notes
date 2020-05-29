@@ -27,11 +27,11 @@ When b = Θ(n) and k <= n<sup>c</sup>, Θ((n+b)log<sub>b</sub>k) = Θ(n).
 # 4. Stable Sort
 Requires elements with the same key to keep the same order.
 
-* Insertion Sort✅  
-* Merge Sort✅
-* Heap Sort❌
-* AVL Sort✅
-* Counting Sort✅
-* Radix Sort✅
+* Insertion Sort ✅  
+* Merge Sort ✅
+* Heap Sort ❌
+* AVL Sort ✅
+* Counting Sort ✅
+* Radix Sort ✅
 
 Radix Sort assumes sorting each digit is stable.
