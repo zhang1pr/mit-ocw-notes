@@ -15,7 +15,8 @@ Operations:
 * hash the list
 
 # 4. Karp-Rabin Algorithm
-**Karp-Rabin Algorithm** - Θ(|s|+|t|+m|s|), where s is short string, t is long string, and m is the number of matches  
+**Karp-Rabin Algorithm** - Θ(|s|+|t|+m|s|), where s is short string, t is long string, and m is the number of matches
+
 Steps:
 1. hash s - Θ(|s|)
 2. iteratively get **Rolling Hash** of |s| window in t, if two hashes match, compare substring in window with s - Θ(|t|-|s|+m|s|)
