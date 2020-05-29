@@ -19,7 +19,7 @@ Search takes Θ(n) in the worst case.
 **Division Method** - h(k) = k mod m, where m is prime and not too close to power of 2 or 10  
 Division is slow.
 
-**Multiplication Method** - h(k) = (ak mod 2^w)>>(w-r), where a is random and odd, k is w bits and m = 2^r  
+**Multiplication Method** - h(k) = (ak mod 2<sup>w</sup>)>>(w-r), where a is random and odd, k is w bits and m = 2<sup>r</sup>  
 Multiplication and bit extraction are faster than division.
 
 **Universal Hashing** - h(k) = ((ak+b) mod p) mod m, where p is a large prime, a and b are random integers between 0 and p-1, and m is the number of slots  
