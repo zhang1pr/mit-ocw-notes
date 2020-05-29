@@ -15,10 +15,3 @@ Can be implemented on Random Access Machine.
 * dict - Hash Table
 * set - Hash Set
 * headq - Heap
-
-# 3. Document Distance
-**Document Length** is the number of the words in the document.
-
-**Dot Product** of 2 documents is sum of the product of each word occurrence count in both documents.
-
-**Document Distance** of 2 documents is arccosine value of their **Dot Product** divided by each **Document Length**.
