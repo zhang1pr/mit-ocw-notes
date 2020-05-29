@@ -1,8 +1,8 @@
 # 1. Tree
 The depth of a node is the number of edges from the root to the node.  
-The height of a node is the number of edges from the node to the deepest leaf, also the larger height of its children plus 1.
+The height of a node is the number of edges from the node to the deepest leaf, also the larger height of its children plus 1.  
 The height of a Tree is the height of the root.  
-A full Binary Tree is a Binary Tree where each node has exactly zero or two children.
+A full Binary Tree is a Binary Tree where each node has exactly zero or two children.  
 A complete Binary Tree is a Binary Tree completely filled, with the possible exception of the bottom level filled from left to right.
 
 # 2. AVL Tree
@@ -11,10 +11,10 @@ Requires heights of children of every node to differ by at most 1.
 In worst case, where:
 * n is the number of nodes in an AVL Tree
 * N is the least number of nodes in an AVL Tree
-* h is the height of the AVL Tree
-N(1) = Θ(1)
-N(h) = 1 + N(h-1) + N(h-2) > 2N(h-2) = Θ(2<sup>h/2</sup>) 
-=> h < 2log(n)
+* h is the height of the AVL Tree  
+N(1) = Θ(1)  
+N(h) = 1 + N(h-1) + N(h-2) > 2N(h-2) = Θ(2<sup>h/2</sup>)  
+=> h < 2log(n)  
 => h = Θ(log(n))
 
 Operations:
