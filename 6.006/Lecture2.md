@@ -6,7 +6,7 @@ Specifies:
 
 **Random Access Machine** - Array
 
-**Pointer Machine** - Linked List
+**Pointer Machine** - Linked List  
 Can be implemented on Random Access Machine.
 
 # 2. Python Model
