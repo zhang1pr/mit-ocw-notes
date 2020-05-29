@@ -19,10 +19,10 @@ For k = n^Θ(1), n keys from 0 to k-1 can be sorted in Θ(n) time.
 
 **Counting Sort** - Θ(n+k), where k is the number of keys
 
-**Radix Sort** - Θ((n+b)log(b, k)), where k is the number of keys and b is the base  
+**Radix Sort** - Θ((n+b)log<sub>b</sub>k), where k is the number of keys and b is the base  
 Iteratively sort by least significant digit by calling **Counting Sort**.
 
-When b = Θ(n) and k <= n^c, Θ((n+b)log(b, k)) = Θ(n).
+When b = Θ(n) and k <= n^c, Θ((n+b)log<sub>b</sub>k) = Θ(n).
 
 # 4. Stable Sort
 Requires elements with the same key to keep the same order.
