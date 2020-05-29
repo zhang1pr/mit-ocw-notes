@@ -12,17 +12,17 @@ The number of comparsions is the time cost.
 **Searching** - Ω(log(n))
 
 **Sorting** - Ω(nlog(n))
-log(n!) = log((2πn)^(1/2)(n/e)^n) = nlog(n) by **Sterling's Formula**
+log(n!) = log(2πn<sup>1/2</sup>(n/e)<sup>n</sup>) = nlog(n) by **Sterling's Formula**
 
 # 3. Linear-time Sorting
-For k = n^Θ(1), n keys from 0 to k-1 can be sorted in Θ(n) time.
+For k = n<sup>Θ(1)</sup>, n keys from 0 to k-1 can be sorted in Θ(n) time.
 
 **Counting Sort** - Θ(n+k), where k is the number of keys
 
 **Radix Sort** - Θ((n+b)log<sub>b</sub>k), where k is the number of keys and b is the base  
 Iteratively sort by least significant digit by calling **Counting Sort**.
 
-When b = Θ(n) and k <= n^c, Θ((n+b)log<sub>b</sub>k) = Θ(n).
+When b = Θ(n) and k <= n<sup>c</sup>, Θ((n+b)log<sub>b</sub>k) = Θ(n).
 
 # 4. Stable Sort
 Requires elements with the same key to keep the same order.
