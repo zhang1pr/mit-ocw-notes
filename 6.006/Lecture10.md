@@ -15,4 +15,4 @@ Operations:
 ** Linear Probing** - h(k, i) = (h'(k)+i) mod m, where h'(k) is the ordinary hash function
 Cluster of size Θ(log(n)) exists.
 
-** Double Hashing** - h(k, i) = (h1(k)+i*h2(k)), where h<sub>1</sub>(k) and h<sub>2</sub>(k) are the ordinary hash functions, and h<sub>2</sub>(k) is relatively prime to m for all k
+** Double Hashing** - h(k, i) = h1(k) + i*h2(k), where h<sub>1</sub>(k) and h<sub>2</sub>(k) are the ordinary hash functions, and h<sub>2</sub>(k) is relatively prime to m for all k
