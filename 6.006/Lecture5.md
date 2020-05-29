@@ -43,9 +43,9 @@ To count planes to land before time t, search until t is found - Θ(h):
 * else if going right, add left subtree size + 1
 
 # 4. Data Structure
-Operations include
+Operations:
 * querys, e.g. find-max, find-min and search
 * updates, e.g. insert and delete
 
-**Representation Invariant**
+**Representation Invariant**  
 Is the precondition for a Data Stucture.
