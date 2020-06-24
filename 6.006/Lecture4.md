@@ -19,9 +19,9 @@ Every parent is greater than or equal to each of its children.
 
 Operations of the **Data Structure**:
 * max-heapify - Θ(log(n))
-Correct a single violation of max-heap, bound by the tree height.
+correct a single violation of max-heap, bound by the tree height
 * build-max-heap - Θ(n)
-Turn an unsorted array into a max-heap by iteratively calling **max-heapify** on nodes from second last level to the top.
+turn an unsorted array into a max-heap by iteratively calling **max-heapify** on nodes from second last level to the top
 
 # 3. Heap Sort 
 **Heap Sort** - Θ(log(n)):
