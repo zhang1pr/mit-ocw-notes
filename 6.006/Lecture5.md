@@ -1,18 +1,4 @@
-# 1. Runway Reservation System
-Requires doing the following operations in O(log(n)) time:
-* deletion
-* searching
-* comparison
-* insertion
-
-Problems with the following Data Structures:
-* unsorted Array - Θ(n) deletion, search and insertion
-* sorted Array - Θ(n) deletion and insertion
-* Linked List - Θ(n) search
-* Heap - Θ(n) search
-* Dictionary - Θ(n) search
-
-# 2. Binary Search Tree
+# 1. Binary Search Tree
 Every node is greater than or equal to its left child, and less than or equal to its right child.
 
 Operations, where h is the height of the tree:
@@ -32,9 +18,16 @@ Operations, where h is the height of the tree:
   * if node has only a child, call **delete** on it and link its parent to its child in the same direction
   * if node has 2 children, call **find-next-larger**, call **delete** on the result node and assign its value to the original node
 
-If Binary Search Tree is completely unbalanced and looks like a Linked List, h = Θ(n).
+If a **Binary Search Tree** is completely unbalanced as a **Linked List**, h = Θ(n).
 
-# 3. Augmented Binary Search Tree
+Comparison of deletion, searching and insertion operations:
+* unsorted Array - Θ(n) deletion, search and insertion
+* sorted Array - Θ(n) deletion and insertion
+* Linked List - Θ(n) search
+* Heap - Θ(n) search
+* Dictionary - Θ(n) search
+
+# 2. Augmented Binary Search Tree
 Stores subtree size in every node (or anything that takes Θ(1) for each node).
 
 To count planes to land before time t, search until t is found - Θ(h):
@@ -42,7 +35,7 @@ To count planes to land before time t, search until t is found - Θ(h):
 * else if going left, do nothing
 * else if going right, add left subtree size + 1
 
-# 4. Data Structure
+# 3. Data Structure
 Operations:
 * querys, e.g. find-max, find-min and search
 * updates, e.g. insert and delete
