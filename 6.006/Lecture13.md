@@ -13,11 +13,9 @@ An **Array** or a **Hash Table** contains **Linked List** of reachable vertices.
 **Adjacency Matrix** - Θ(V<sup>2</sup>) space of bits:  
 A 2D array of all vertices contains 0 or 1.
 
-# 2. Breath First Search
+# 2. Breadth First Search
 Visits all vertices reachable from a given vertex V layer by layer, for **Directed Graph** and **Undirected Graph**.  
 Parent pointers form a tree, where V is the root and any path from V to a vertex is one **Shortest Path**.  
 Every edge is visited once in **Directed Graph**, twice in **Undirected Graph**.
 
-**Adjacency List** - Θ(V+E)
-
-**Adjacency Matrix** - Θ(V<sup>2</sup>)
+**Breadth First Search** with **Adjacency List** - Θ(V+E)
