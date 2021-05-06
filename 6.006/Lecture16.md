@@ -8,11 +8,12 @@ Relax edges in topological order
 Iteratively select the non-visited and discovered vertex with min distance from source vertex, discover new vertice and relax edges
 
 # 2. Dijkstra
-Operations:
+Operation:
 * Θ(V) * insert a vertex 
 * Θ(V) * extract the non-visited and discovered vertex with min distance
 * Θ(E) * decrease a vertex's distance
 
+Implementation:
 **Array** - Θ(V<sup>2</sup> + E)
 * Θ(V) * Θ(1)
 * Θ(V) * Θ(V)
