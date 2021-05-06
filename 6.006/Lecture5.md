@@ -1,7 +1,7 @@
 # 1. Binary Search Tree
 Every node is greater than or equal to its left child, and less than or equal to its right child.
 
-Operations, where h is the height of the tree:
+Operation, where h is the height of the tree:
 * search - Θ(h)
 * insert - Θ(h)
   * call **search** until an empty slot is found
@@ -20,7 +20,7 @@ Operations, where h is the height of the tree:
 
 If a **Binary Search Tree** is completely unbalanced as a **Linked List**, h = Θ(n).
 
-Comparison of deletion, searching and insertion operations:
+Cost of deletion, searching and insertion:
 * unsorted Array - Θ(n) deletion, search and insertion
 * sorted Array - Θ(n) deletion and insertion
 * Linked List - Θ(n) search
@@ -36,7 +36,7 @@ To count planes to land before time t, search until t is found - Θ(h):
 * else if going right, add left subtree size + 1
 
 # 3. Data Structure
-Operations:
+Operation:
 * querys, e.g. find-max, find-min and search
 * updates, e.g. insert and delete
 
