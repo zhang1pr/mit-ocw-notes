@@ -1,5 +1,5 @@
 # 1. Dictionary ADT
-Operations:
+Operation:
 * insert an item
 * delete an item
 * search item and return it with key if it exists
