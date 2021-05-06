@@ -7,7 +7,7 @@ In **Directed Graph**, the number of degrees is twice the number of edges.
 In **Undirected Graph**, the number of in degrees and out degrees are equal, adding up to twice the number of edges.
 
 # 2. Graph Data Structure
-**Adjacency List** - Θ(V+E) space of words:  
+**Adjacency List** - Θ(V + E) space of words:  
 An **Array** or a **Hash Table** contains **Linked List** of reachable vertices.
 
 **Adjacency Matrix** - Θ(V<sup>2</sup>) space of bits:  
@@ -18,4 +18,4 @@ Visits all vertices reachable from a given vertex V layer by layer, for **Direct
 Parent pointers form a tree, where V is the root and any path from V to a vertex is one **Shortest Path**.  
 Every edge is visited once in **Directed Graph**, twice in **Undirected Graph**.
 
-**Breadth First Search** with **Adjacency List** - Θ(V+E)
+**Breadth First Search** with **Adjacency List** - Θ(V + E)
