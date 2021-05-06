@@ -17,7 +17,7 @@ N(h) = 1 + N(h-1) + N(h-2) > 2N(h-2) = Θ(2<sup>h/2</sup>)
 => h < 2log(n)
 => h = Θ(log(n))
 
-Operations:
+Operation:
 * rebalance - Θ(log(n))
   iteratively fix AVL property from changed node, where A is the lowest violating node and B is its right child,
   * if B is right heavy or balanced, right rotate A
