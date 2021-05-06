@@ -20,7 +20,7 @@ Recursively split and merge back.
 Split represents **Divide and Conquer** - Θ(1)
 Merge uses **Two Pointers Techique** - Θ(n)
 
-T(1) = Θ(1)
+T(1) = Θ(1)  
 T(n) = 2T(n/2) + Θ(n) = 2(2T(n/4) + n/2) + n = 4T(n/4) + 2n = nT(1) + nlog(n) = Θ(nlog(n))
 
 **In-place Sort**
