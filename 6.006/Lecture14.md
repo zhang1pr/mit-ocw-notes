@@ -1,7 +1,7 @@
 # 1. Depth First Search
 Visits all vertices from a given vertex V by recursively doing **Depth First Search** on each neighbor vertex, for **Directed Graph** and **Undirected Graph**.  
 
-**Depth First Search** with **Adjacency List** - Θ(V + E)
+**Depth First Search** with **Adjacency List** - Θ(V + E)
 
 # 2. Edge Classification
 * Tree Edge - to a new vertex (formed by **Depth First Search** tree)
