@@ -11,7 +11,7 @@ The number of comparsions is the time cost.
 
 **Searching** - Ω(log(n))
 
-**Sorting** - Ω(nlog(n))
+**Sorting** - Ω(nlog(n))  
 log(n!) = log(2πn<sup>1/2</sup>(n/e)<sup>n</sup>) = nlog(n) by **Sterling's Formula**
 
 # 3. Linear-time Sorting
