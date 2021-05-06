@@ -9,7 +9,7 @@ When table is full, double the size; when table is only 1/4 full, halve the size
 Insertion to new table takes amortized Θ(1).
 
 # 3. Rolling Hash ADT
-Operations:
+Operation:
 * add a character to the end
 * skip the first character
 * hash the list
