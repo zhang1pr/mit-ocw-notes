@@ -5,7 +5,7 @@
 * Toom-Cook - Θ(d<sup>log<sub>3</sub>5</sup>) ≈ Θ(d<sup>1.465</sup>)  
   T(d) = 5T(d/3) + Θ(d)
 * Strassen - Θ(dlogd * loglogd)
-* Furer - Θ(nlgn * 2<sup>O(log<sup>\*</sup>n)</sup>), where O(log<sup>\*</sup>n) is iterated logarithm
+* Furer - Θ(nlogn * 2<sup>O(log<sup>\*</sup>n)</sup>), where O(log<sup>\*</sup>n) is iterated logarithm
 
 # 2. High Precision Division
 Steps to compute a/b:
