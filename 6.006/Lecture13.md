@@ -15,7 +15,7 @@ A 2D **Array** of all vertices contains 0 or 1.
 
 # 2. Breadth First Search
 Visits all vertices reachable from a given vertex V layer by layer, for **Directed Graph** and **Undirected Graph**.  
-Parent pointers form a tree, where V is the root and any path from V to a vertex is one **Shortest Path**.  
+Parent pointers form a tree, where V is the root and any path from V to a vertex is a **Shortest Path**.  
 Every edge is visited once in **Directed Graph**, twice in **Undirected Graph**.
 
 **Breadth First Search** with **Adjacency List** - Θ(V + E)
