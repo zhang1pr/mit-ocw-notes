@@ -1,5 +1,5 @@
 # 1. Dynamic Programming
-Is an algorithmic design technique that re-uses solutions to subproblems to solve problem, where subproblem dependency should be acyclic. **Dynamic Programming** can be viewed as finding **Shortest Path** in subproblem dependency **Directed Acyclic Graph**.
+Is an algorithmic design technique that re-uses solutions to subproblems to solve problem, where subproblem dependency should be acyclic.
 
 * Top-down  
 combines recursion and memoization of subproblem
