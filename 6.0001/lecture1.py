@@ -17,7 +17,7 @@ print(3 // 2) # 1
 print(3 % 2)  # 1
 print(3 ** 2) # 9
 
-# precedence, ** > (*,/,//,%) > (+,-)
+# precedence, ** > (*, /, //, %) > (+, -), higher executed first
 print(5 + 4 * 3 ** 2)     # 41
 print(((5 + 4) * 3) ** 2) # 729
 

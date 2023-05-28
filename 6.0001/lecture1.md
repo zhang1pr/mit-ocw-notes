@@ -1,5 +1,5 @@
 # 1. Computers
-A computer performs calculations and remembers results
+A computer performs calculations and remembers results.
 
 * Declarative knowledge  
   statements of fact
@@ -42,7 +42,7 @@ Definitions are evaluated and commands are executed by interpreter in a shell.
 # 3. Objects
 Programs manipulate data objects that have a type to define what programs can do to them.
 
-Objects:
+Objects types:
 * scalar  
   cannot be subdivided, for example, int, float and boolean
 * non-scalar  
